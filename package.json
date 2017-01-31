@@ -1,0 +1,29 @@
+{
+  "name": "multikeymap",
+  "longName": "MultiKeyMap",
+  "description": "A multi-key hash table for JavaScript.",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "istanbul": "~0.4.2",
+    "mocha": "~2.4.5"
+  },
+  "keywords": [
+    "multi",
+    "key",
+    "vector",
+    "map",
+    "hashtable"
+  ],
+  "main": "./lib/multikeymap.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dsfields/multikeymap-js"
+  },
+  "scripts": {
+    "lint": "eslint ./**/*.js",
+    "test": "NODE_ENV=test istanbul cover _mocha tests/unit/**/*.js"
+  }
+}
